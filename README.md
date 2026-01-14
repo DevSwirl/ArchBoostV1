@@ -1,4 +1,4 @@
-# ArchBoost
+# sysnew
 
 Simple Rust CLI tool for bootstrapping a fresh Arch-based Linux system with essential packages, performance optimizations, and safe privacy defaults.
 
@@ -16,15 +16,16 @@ Install the binary in `/usr/local/bin` and run `sysnew` from anywhere.
 Install Rust if needed:
 
 sudo pacman -S rustup
+
 rustup default stable
 
 Clone the repository:
 
 cd Desktop
 
-git clone https://github.com/DevSwirl/ArchBoostV1.git
+git clone https://github.com/DevSwirl/sysnew.git
 
-cd ArchBoostV1
+cd sysnew
 
 cd sysnew
 
@@ -36,7 +37,7 @@ rustc sysnew.rs
 
 Transfer binary for system-wide use:
 
-sudo mv /home/{YOUR_NAME}/Desktop/ArchBoostV1/sysnew/src/sysnew /usr/local/bin/
+sudo mv /home/{YOUR_NAME}/Desktop/sysnew/sysnew/src/sysnew /usr/local/bin/
 
 Usage
 
