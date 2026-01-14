@@ -2,7 +2,7 @@
 
 Simple Rust CLI tool for bootstrapping a fresh Arch-based Linux system with essential packages, performance optimizations, and safe privacy defaults.
 
-Install the binary in `/usr/local/bin` and run `archboost` from anywhere.
+Install the binary in `/usr/local/bin` and run `sysnew` from anywhere.
 
 ## Requirements
 
